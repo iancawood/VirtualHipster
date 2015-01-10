@@ -11,7 +11,7 @@ var lastfmSecret = "a652453a3e12395ef47cebc5df2af1b3";
 var lastfmRoot = "http://ws.audioscrobbler.com/2.0/";
 
 router.get('/',function(req,res){
-	res.sendFile(path.resolve(__dirname + '/../views/lab4.html'));
+	res.sendFile(path.resolve(__dirname + '/../views/webpage.html'));
 });
 
 // given an artist, this returns an array of similar artists
